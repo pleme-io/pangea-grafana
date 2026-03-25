@@ -4,6 +4,8 @@
 require 'pangea-core'
 require 'terraform-synthesizer'
 
+module Pangea; module Resources; module Grafana; module Types; end; end; end; end
+
 # Grafana resources
 require_relative 'pangea/resources/grafana_annotation/resource'
 require_relative 'pangea/resources/grafana_apps_dashboard_dashboard_v1beta1/resource'
