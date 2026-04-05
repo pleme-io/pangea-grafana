@@ -263,16 +263,17 @@
         "pre-commit-hooks": "pre-commit-hooks_2"
       },
       "locked": {
-        "lastModified": 1773440526,
-        "narHash": "sha256-OcX1MYqUdoalY3/vU67PEx8m6RvqGxX0LwKonjzXn7I=",
-        "owner": "nix-community",
+        "lastModified": 1772186516,
+        "narHash": "sha256-8s28pzmQ6TOIUzznwFibtW1CMieMUl1rYJIxoQYor58=",
+        "owner": "rossng",
         "repo": "crate2nix",
-        "rev": "e697d3049c909580128caa856ab8eb709556a97b",
+        "rev": "ba5dd398e31ee422fbe021767eb83b0650303a6e",
         "type": "github"
       },
       "original": {
-        "owner": "nix-community",
+        "owner": "rossng",
         "repo": "crate2nix",
+        "rev": "ba5dd398e31ee422fbe021767eb83b0650303a6e",
         "type": "github"
       }
     },
@@ -455,11 +456,11 @@
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1774370150,
-        "narHash": "sha256-P6EAWzX7OwyP/T7mkQRBuDuNd1xyx2bbRmUTfWYm3lg=",
+        "lastModified": 1775334024,
+        "narHash": "sha256-vg1CVojgtjLPZNFe7QVd/d97E12TLUgBQDlCqMqbEGU=",
         "owner": "cachix",
         "repo": "devenv",
-        "rev": "899bc62cadea44e873a41db001a4c229769f3f4d",
+        "rev": "f30a244f8175ef14ed1a4e4dfc737d28ecc5d852",
         "type": "github"
       },
       "original": {
@@ -1896,11 +1897,11 @@
     },
     "nixpkgs_10": {
       "locked": {
-        "lastModified": 1774244481,
-        "narHash": "sha256-4XfMXU0DjN83o6HWZoKG9PegCvKvIhNUnRUI19vzTcQ=",
+        "lastModified": 1775002709,
+        "narHash": "sha256-d3Yx83vSrN+2z/loBh4mJpyRqr9aAJqlke4TkpFmRJA=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "4590696c8693fea477850fe379a01544293ca4e2",
+        "rev": "bcd464ccd2a1a7cd09aa2f8d4ffba83b761b1d0e",
         "type": "github"
       },
       "original": {
@@ -2345,11 +2346,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1774387512,
-        "narHash": "sha256-k+8IJZjnibmPseXBFLoEHsn03Ktr0jprde9MMOsfhHI=",
+        "lastModified": 1775356598,
+        "narHash": "sha256-TaGnB7GAbfdaz/bwNVmSd/EwLhkVlbsfaYRrMdbJAIs=",
         "owner": "pleme-io",
         "repo": "substrate",
-        "rev": "c28a494060a9f068c34e61318c9332ec2a18e19c",
+        "rev": "0204a2b1c9a67ac7b8a9842ceea1a57c145b1135",
         "type": "github"
       },
       "original": {
