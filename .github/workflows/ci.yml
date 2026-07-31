@@ -1,6 +1,14 @@
 name: ci
 
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
+  # workflow_dispatch is the manual arm path. Without it this workflow had no
+  # recovery route at all: its only ever push landed while Actions were
+  # disabled on the repo, GitHub does not backfill runs, and the shim writer
+  # is idempotent so it will never push again. Wired + enabled + zero runs,
+  # permanently. See theory/NATIMORTO.md.
+  workflow_dispatch:
 
 jobs:
   check:
